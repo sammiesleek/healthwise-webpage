@@ -1,0 +1,57 @@
+.home{
+    background:$color1;
+    .carousel{ 
+        .carousel-inner{ 
+            .carousel-item{
+                .mask{
+                    .container{
+                        align-items: center !important;
+                        justify-content: center !important;
+                        display: flex !important;
+                        .vh{
+                            .info{
+                                .bt{
+                                    width: fit-content;
+                                }
+                                .top-text{
+                                    color:$color3;
+                                    text-align:left;
+                                    // font-size:40px !important;
+                                }
+                                .h5-info{
+                                    color:$color3;
+                                    text-align:left;
+                                    font-size:20px !important;
+                                    font-weight:500;
+
+                                }
+                                .p-info{
+                                    font-size: 16px !important;
+                                    color:$color3;
+                                    text-align: left;
+                                }
+
+                            }
+                        }
+                        // button{
+                        //     background:$color3 !important;
+                        //     color:$color2;
+                        //     border:none;
+                        //     font-weight:500;
+                        //     padding:10px 15px !important;
+                        //     transition:all ease-in 0.5s;
+                        //     margin-right: auto;
+                        //     &:hover{
+                        //         color:$color3 !important;
+                        //         background-color:$color2 !important;
+                        //     }
+
+                        // }
+                    }
+                }
+            }
+        }
+            
+                
+    }           
+}

@@ -1,0 +1,88 @@
+#about{
+    background:#f7f9fb;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    .container{
+        .cont-h1{
+            font-size: 20px;
+            color:$color2;
+            text-align: left;
+            margin-bottom:15px;
+            
+        }
+        .row-about{
+            .col-md-7{
+                .about-head{
+                    margin-bottom: 20px;
+                    .about-h1{
+                        font-size:28px;
+                        color:$color2;  
+                        text-align: left;
+                        font-weight:700;
+                    }
+                    .about-p{
+                        text-align: left;
+                        font-size:15px;
+                        color:$color2;
+
+                    }
+                }
+                .about-l{
+                    .box{
+                        display: flex;
+                        align-items:center;
+                        &:hover{
+                            .ikon{
+                                background:$color1;
+                                .icon{
+                                    color:$color3;
+                                }
+                            }
+                        }
+                        .ikon{
+                            width: 70px;
+                            height:70px;
+                            border-radius: 50%;
+                            background: transparent;
+                            border: 2px solid $color1;
+                            display:flex;
+                            align-items:center;
+                            justify-content: center;
+                            transition:all ease 0.3s;
+                            i{
+                                font-size:30px;
+                                color:$color1;
+                                .icon{
+                                    transition:all ease 0.3s;
+                                }
+                            }
+                        }
+                        .info{
+                            width:80%;
+                            margin-left: 20px;
+                            h4{
+                                font-size:18px;
+                                font-weight:700;
+                                text-align: left;
+                            }
+                            p{
+                                font-size:14px;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-md-5{
+                .image-box{
+
+                    margin-bottom:30px;
+                    img{
+                        width:100%;
+                    }
+                }
+            }
+        }
+
+    }    
+}

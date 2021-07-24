@@ -1,0 +1,130 @@
+
+@include amg{
+    .home{
+        padding:0;
+    }
+    header{
+        background: $color3;
+        .cont{
+            .log-p{
+                a{
+                    i{
+                        // color:$color3;
+                    }
+                }
+            }
+            .navi_ation{
+                    position: fixed;
+                    width: 100vw;
+                    height:100%;
+                    left:-100%;
+                    top:82px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background: $color3;
+                    transition:all ease-in-out 0.5s;
+                    .nav-items{
+                        background: $color3;
+                        width:100%;
+                        display:flex;
+                        align-items: center;
+                        flex-direction:column;
+                        padding-top:5px;
+                        margin:0;
+                        .item{
+                            a{
+                            color:$color2;
+                            &:hover{
+                                color:$color1;
+                            }
+                            }
+                        }
+                    }
+                    .apt-btn{
+                        a{
+                            color:$color3;
+                            background-color:$color1;
+                        }
+                    }
+            }
+        }
+       
+    }
+}
+
+
+@include mediaMd{
+    header{
+        &.sticky{
+            background-color: $color3;
+            box-shadow: 0px 0px 5px rgba($color2, 0.4),0px 0px 14px rgba($color2, 0.2)
+            ,0px 0px 9px rgba($color2, 0.1);
+            border:none;
+            // opacity:0;
+            .cont{
+                .navi_ation{
+                    .nav-items{
+                        .item{
+                            a{
+                                color: $color2;
+                                transition: all ease 0.5s;
+                                &:hover{
+                                    color:$color1 ;
+                                }
+                            }
+                        }
+                    }
+                }
+                .apt-btn{
+                    .btn{
+                        background: $color1;
+                        color: $color3;
+                    }
+                }
+            }
+
+        }
+    }
+}
+@include mediaLg{
+    .home{
+        // padding-top:60px;
+    }
+    header{
+        .cont{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            .navi_ation{
+                align-items: center;
+                display: flex;
+                .nav-items{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 15px;
+                    .item{
+                        
+                        a{
+                            padding: 10px 13px;
+                        }
+                    }
+                }
+                .apt-btn{
+                    margin-left: 30px;
+                }
+
+            }
+            .toggle{
+                display:none;
+            }
+        }
+    }
+}
+@include mediaXl{
+    header{
+        .cont{
+            padding:0px 50px;
+        }
+    }
+}

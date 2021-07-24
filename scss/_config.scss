@@ -1,0 +1,66 @@
+$color1:#109bad;
+$color2:#000000;
+$color3:#ffffff;
+
+
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+    // margin:0 !important;
+}
+ul{
+    margin:0 !important;
+    padding:0 !important;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html{
+    overflow-x:hidden;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+@media screen and (min-width:900px){
+    .cont{
+        // max-width:400px !important;
+    }
+}
+
+@mixin amg {
+    @media screen and (max-width:900px){
+    @content;
+    }
+}
+// @mixin Mm {
+//     @media screen and (min-width:900px){
+//         @content;
+//     }
+// }
+
+@mixin mediaMd {
+    @media screen and (min-width:570px){
+        @content;
+    }
+    
+    
+}
+@mixin mediaLg {
+    @media screen and (min-width:900px){
+        @content;
+    }
+    
+}
+@mixin mediaXl {
+    @media screen and (min-width:1171px){
+        @content;
+    }
+    
+}

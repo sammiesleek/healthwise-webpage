@@ -1,0 +1,127 @@
+#our-department{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    // padding-top:35px;
+    
+    .container{
+        .dept-h1{
+            font-size: 26px;
+            color:$color2;
+            text-align: center; 
+            margin:20px 0px;
+            font-weight:700;
+        }
+        .dept-p{
+            font-size: 16px;
+            text-align: center;
+            color:$color2;
+        }
+        .row-dept{
+            .col-dept{
+                .wrap{
+                    position: relative;
+                    min-height:380px;
+                    overflow:hidden;
+                    border-bottom:2px solid $color1;
+                    margin-bottom:30px;
+                    &:hover{
+                            .details-dept{
+                                margin-bottom:0px;
+                            }
+
+                        }
+                    // &::after{
+                    //     content: '';
+                    //     display: block;
+                        
+                    //     width:100%;
+                    //     height:60px;
+                    //     position: absolute;
+                    //     bottom:0;
+                        border-bottom:2px solid $color1;
+                    // }
+                    .dept-img{
+                        width:100%;
+                    }
+                    .details-dept{
+                        transition: all ease-in 0.3s;
+                        background: #fbf7f8;
+                        position:absolute;
+                        margin-bottom:-60px;
+                        bottom:0;
+                        display: flex;
+                        align-items:center;
+                        flex-direction: column;
+                        padding:30px 20px 20px 20px;
+                        
+                        .ikon-sz{
+                            height:60px;
+                            width:60px;
+                            border-radius: 50%;
+                            background: #fbf7f8;
+                            position:absolute;
+                            left:50%;
+                            transform: translateX(-50%);
+                            display: flex;
+                            align-items:center;
+                            justify-content: center;
+                            top:-30px;
+                            .icon{
+                                color:$color1;
+                                font-size: 30px;
+                            }
+
+                        }
+                        .dept-info{
+                            display: flex;
+                            align-items:center;
+                            flex-direction: column;
+                            h4{
+                                font-size:18px;
+                                text-align: center;
+                                font-weight:700;
+                            }
+                            p{
+                                text-align: center;
+                                font-size:14px;
+
+                            }
+                        }
+                        .buton-click{
+                            .bt{
+                                margin-top: 15px;
+                                background: #009bad;
+                                border-radius: 30px;
+                                display: inline-block;
+                                color: #fff;
+                                font-size: 14px;
+                                text-transform: uppercase;
+                                padding: 6px 15px;
+                                border: 2px solid transparent;
+                                transition: all .3s ease;
+                                &:first-child:hover{
+                                    background: transparent;
+                                    border:solid 2px $color1;
+                                    color:$color1;
+                                }
+                                &:last-child{
+                                    background: transparent;
+                                    border:solid 2px $color1;
+                                    color:$color1;
+                                    &:hover{
+                                        
+                                        background: $color1;
+                                        color:$color3;
+
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

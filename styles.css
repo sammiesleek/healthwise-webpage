@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <meta name="descriptison" content="Healthcare, Medical, Hospital Responsive Html5 One Page Template">
+
+	<meta name="keywords" content="healthcare, medical, hospital, doctor, bootstrap, creative, landing page, multipurpose, product, responsive, clinic template">
+
+	<meta name="author" content="Vrishank Softtech">
+
+    <!-- Site Title -->
+
+    <title>Mediyot - Healthcare, Medical & Hospital Html5 Landing Page</title>
+
+    <!-- Site Favicon -->
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Icofont Icons -->
+
+	<link rel="stylesheet" href="css/icofont.min.css">
+
+    <!-- Carousel Slider -->
+
+    <link rel="stylesheet" href="css/owl.carousel.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" type="text/css">
+
+    <!-- Animate CSS -->
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Custom  CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+
+    <!--Start Navbar-->
+
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+
+        <div class="container">
+
+            <!-- LOGO -->
+
+            <a class="navbar-brand brand-logo mr-4" href="index.html">
+
+                <img src="images/logo.png" class="img-fluid logo-light" alt="">
+
+                <img src="images/logo-dark.png" class="img-fluid logo-dark" alt="">
+
+            </a>
+
+            <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
+
+                <ul class="navbar-nav navbar-center" id="mySidenav">
+
+                    <li class="nav-item active">
+
+                        <a href="#home" class="nav-link">Home</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#features" class="nav-link">Features</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#aboutus" class="nav-link">About Us</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#departments" class="nav-link">Departments</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#our-team" class="nav-link">Our Team</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#premises" class="nav-link">Premises</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#faq" class="nav-link">FAQ's</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="contact_btn">
+
+                <a href="#appointment" class="btn btn-sm">APPOINTMENT</a>
+
+                <button class="navbar-toggler ml-2 p-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <i class="icofont-navigation-menu"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Home Start-->
+
+    <section class="bg-gradient overflow-hidden home-section" id="home">
+
+        <div class="waves-bg home-bg">
+
+            <div class="container">
+
+                <div class="owl-carousel owl-theme home-slider">
+
+                    <div class="item">
+
+                        <div class="row align-items-center">
+
+                            <div class="col-md-6">
+
+                                <div class="content-fadeInUp">
+
+                                    <h2 class="heading">
+
+                                        Welcome to Mediyot
+
+                                    </h2>
+
+                                    <h1 class="text-white sub-title">Best Care & Better Doctor</h1>
+
+                                    <p class="para-sec">
+
+                                        Better health care with efficient cost is the main focuse of our hospital.
+
+                                    </p>
+
+                                    <div class="learn-more">
+
+                                        <a href="#aboutus" class="btn btn-white btn-rounded text-white">Learn More</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="img-fadeInRight">
+
+                                    <img src="images/slider-img/banner-img-01.png" class="img-fluid" alt="">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+
+                        <div class="row align-items-center">
+
+                            <div class="col-md-6">
+
+                                <div class="content-fadeInUp">
+
+                                    <h2 class="heading">
+
+                                        Welcome to Mediyot
+
+                                    </h2>
+
+                                    <p class="para-sec">
+
+                                        Better health care with efficient cost is the main focuse of our hospital.
+
+                                    </p>
+
+                                    <div class="learn-more">
+
+                                        <a href="#aboutus" class="btn btn-white btn-rounded text-white">Learn More</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="img-fadeInRight">
+
+                                    <img src="images/slider-img/banner-img-01.png" class="img-fluid" alt="">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+			<div class="hero-waves">
+
+			  <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+
+				<defs></defs>
+
+				<path id="wave1" d="" />
+
+			  </svg>
+
+			  <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+
+				<defs></defs>
+
+				<path id="wave2" d="" />
+
+			  </svg>
+
+			</div>
+
+        </div>
+
+    </section>
+
+    <!-- Home End -->
+
+	<!-- Features Start -->
+
+    <section id="features" class="section features">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<div class="section-title text-center mb-4">
+
+						<h2>Our Features</h2>
+
+						<p class="section-subtitle mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-4">
+
+					<div class="ftr-icon-box wow fadeInUp">
+
+						<div class="icon"><i class="icofont-stretcher"></i></div>
+
+						<h4 class="title">Emergency Care</h4>
+
+						<p class="description">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text</p>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<div class="ftr-icon-box wow fadeInUp" data-wow-delay="0.3s">
+
+						<div class="icon"><i class="icofont-doctor"></i></div>
+
+						<h4 class="title">Qualified Doctors</h4>
+
+						<p class="description">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text</p>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<div class="ftr-icon-box wow fadeInUp" data-wow-delay="0.6s">
+
+						<div class="icon"><i class="icofont-wall-clock"></i></div>
+
+						<h4 class="title">24/7 Hours Service</h4>
+
+						<p class="description">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+    </section>
+
+	<!-- Features End -->
+
+	<!-- About Us Start -->
+
+    <section id="aboutus" class="aboutus section inverse-bg">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-7">
+
+					<div class="mb-30">
+
+						<div class="section-title mb-4">
+
+							<h4 class="sub-title">About us</h4>
+
+							<h2>50 Years of Experience in Medical</h2>
+
+							<p>This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer. This is simply dummy text of the printing and type setting industry.</p>
+
+						</div>
+
+						<div class="icon-boxes">
+
+							<div class="aboutus-icon-box d-flex align-items-start">
+
+								<div class="icon"><i class="icofont-users-alt-2"></i></div>
+
+								<div class="ml-4">
+
+									<h4 class="title">Professional Staff</h4>
+
+									<p class="description">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since</p>
+
+								</div>
+
+							</div>
+
+							<div class="aboutus-icon-box d-flex align-items-start">
+
+								<div class="icon"><i class="icofont-checked"></i></div>
+
+								<div class="ml-4">
+
+									<h4 class="title">98% Success Rate</h4>
+
+									<p class="description">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since</p>
+
+								</div>
+
+							</div>
+
+							<div class="aboutus-icon-box d-flex align-items-start">
+
+								<div class="icon"><i class="icofont-excavator"></i></div>
+
+								<div class="ml-4">
+
+									<h4 class="title">Modern Equipments</h4>
+
+									<p class="description">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since</p>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-5">
+
+					<img src="images/aboutus/about-doc-img.jpg" alt="" class="w-100 mb-30">
+
+				</div>
+
+			</div>
+
+		</div>
+
+    </section>
+
+	<!-- About Us End -->
+
+	<!-- Start Our Department -->
+
+	<section class="section" id="departments">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<div class="section-title text-center mb-4">
+
+						<h2>Our Departments</h2>
+
+						<p class="section-subtitle mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-4">
+
+					<div class="dept-box">
+
+						<div>
+
+							<img src="images/department/dept-01.jpg" alt="" class="w-100">    
+
+						</div>
+
+						<div class="dept-details">
+
+							<div class="round-style"></div>
+
+							<i class="icon icofont-heart-beat-alt"></i>
+
+							<h4>Cardiology</h4>
+
+							<p class="details">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer. This is simply dummy text of the printing and typesetting.</p>
+
+							<a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+
+							<a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<div class="dept-box">
+
+						<div>
+
+							<img src="images/department/dept-02.jpg" alt="" class="w-100">    
+
+						</div>
+
+						<div class="dept-details">
+
+							<div class="round-style"></div>
+
+							<i class="icon icofont-autism"></i>
+
+							<h4>Neurology</h4>
+
+							<p class="details">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer. This is simply dummy text of the printing and typesetting.</p>
+
+							<a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+
+							<a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<div class="dept-box">
+
+						<div>
+
+							<img src="images/department/dept-03.jpg" alt="" class="w-100">    
+
+						</div>
+
+						<div class="dept-details">
+
+							<div class="round-style"></div>
+
+							<i class="icon icofont-crutch"></i>
+
+							<h4>Orthopedics</h4>
+
+							<p class="details">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer. This is simply dummy text of the printing and typesetting.</p>
+
+							<a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+
+							<a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<div class="dept-box">
+
+						<div>
+
+							<img src="images/department/dept-04.jpg" alt="" class="w-100">    
+
+						</div>
+
+						<div class="dept-details">
+
+							<div class="round-style"></div>
+
+							<i class="icon icofont-surgeon"></i>
+
+							<h4>Surgery</h4>
+
+							<p class="details">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer. This is simply dummy text of the printing and typesetting.</p>
+
+							<a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+
+							<a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<div class="dept-box">
+
+						<div>
+
+							<img src="images/department/dept-05.jpg" alt="" class="w-100">    
+
+						</div>
+
+						<div class="dept-details">
+
+							<div class="round-style"></div>
+
+							<i class="icon icofont-laboratory"></i>
+
+							<h4>Urology</h4>
+
+							<p class="details">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer. This is simply dummy text of the printing and typesetting.</p>
+
+							<a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+
+							<a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-4">
+
+					<div class="dept-box">
+
+						<div>
+
+							<img src="images/department/dept-06.jpg" alt="" class="w-100">    
+
+						</div>
+
+						<div class="dept-details">
+
+							<div class="round-style"></div>
+
+							<i class="icon icofont-tooth"></i>
+
+							<h4>Dental</h4>
+
+							<p class="details">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer. This is simply dummy text of the printing and typesetting.</p>
+
+							<a href="#" class="thm-btn"><i class="icofont-envelope"></i> Contact</a>
+
+							<a class="thm-btn inverse" href="#"><i class="icofont-heart"></i> Support</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>              
+
+		</div>
+
+	</section>
+
+	<!-- End Our Department -->
+
+    <!-- Start Patient Reviews -->
+
+    <section class="section bg-gradient" id="reviews">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="section-title text-center mb-4">
+
+                        <h2 class="text-white">Patient Reviews</h2>
+
+                        <p class="text-white section-subtitle mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="owl-carousel owl-theme review-slider">
+
+                        <div class="item">
+
+                            <div class="review-card shadow-md">
+
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                            </div>
+
+                            <div class="user-txt">
+
+                                <div class="user-pics"><img  src="images/reviews/feedback-1.jpg" alt=""></div>
+
+                                <div class="user-info">
+
+                                    <h6 class="heading text-white">David Matin</h6>
+
+                                    <p class="sub-heading text-white">Mediyot User</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="review-card shadow-md">
+
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                            </div>
+
+                            <div class="user-txt">
+
+                                <div class="user-pics"><img  src="images/reviews/feedback-2.jpg" alt=""></div>
+
+                                <div class="user-info">
+
+                                    <h6 class="heading text-white">David Matin</h6>
+
+                                    <p class="sub-heading text-white">Mediyot User</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="review-card shadow-md">
+
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                            </div>
+
+                            <div class="user-txt">
+
+                                <div class="user-pics"><img  src="images/reviews/feedback-3.jpg" alt=""></div>
+
+                                <div class="user-info">
+
+                                    <h6 class="heading text-white">David Matin</h6>
+
+                                    <p class="sub-heading text-white">Mediyot User</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="review-card shadow-md">
+
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                            </div>
+
+                            <div class="user-txt">
+
+                                <div class="user-pics"><img  src="images/reviews/feedback-4.jpg" alt=""></div>
+
+                                <div class="user-info">
+
+                                    <h6 class="heading text-white">David Matin</h6>
+
+                                    <p class="sub-heading text-white">Mediyot User</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="review-card shadow-md">
+
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                            </div>
+
+                            <div class="user-txt">
+
+                                <div class="user-pics"><img  src="images/reviews/feedback-5.jpg" alt=""></div>
+
+                                <div class="user-info">
+
+                                    <h6 class="heading text-white">David Matin</h6>
+
+                                    <p class="sub-heading text-white">Mediyot User</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- End Patient Reviews -->
+
+	<!-- Start Our Team -->
+
+	<section class="section our-team" id="our-team">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<div class="section-title text-center mb-4">
+
+						<h2>Meet Our Experienced Doctors</h2>
+
+						<p class="section-subtitle mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6">
+
+					<div class="team-box wow fadeInUp">
+
+						<article class="row">
+
+							<div class="col-md-6">
+
+								<img src="images/team/doc-1.jpg" alt="">
+
+							</div>
+
+							<div class="col-md-6">
+
+								<div class="title-box">
+
+									<h4>Dr. Anym Jackson</h4>
+
+									<p>Cardiologist & Surgeon</p>
+
+								</div>
+
+								<div>
+
+									<p>Etiam dignissim sit amet felis ac sagittis. Sed libero arcu, pharetra et ante in, elementum scelerisque arcu. Curabitur sagittis non justo at ultricies odio ac diam finibus.</p>
+
+								</div>
+
+								<div class="m-al-c"><a href="#" class="get-apt"><i class="icofont-rounded-right"></i> Book Appointment </a></div>
+
+							</div>
+
+						</article>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="team-box wow fadeInUp" data-wow-delay="0.3s">
+
+						<article class="row">
+
+							<div class="col-md-6">
+
+								<img src="images/team/doc-2.jpg" alt="">
+
+							</div>
+
+							<div class="col-md-6">
+
+								<div class="title-box">
+
+									<h4>Dr. Jaka Alex</h4>
+
+									<p>Gynecologist & Surgeon</p>
+
+								</div>
+
+								<div>
+
+									<p>Etiam dignissim sit amet felis ac sagittis. Sed libero arcu, pharetra et ante in, elementum scelerisque arcu. Curabitur sagittis non justo at ultricies odio ac diam finibus.</p>
+
+								</div>
+
+								<div class="m-al-c"><a href="#" class="get-apt"><i class="icofont-rounded-right"></i> Book Appointment </a></div>
+
+							</div>
+
+						</article>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="team-box wow fadeInUp" data-wow-delay="0.6s">
+
+						<article class="row">
+
+							<div class="col-md-6">
+
+								<img src="images/team/doc-3.jpg" alt="">
+
+							</div>
+
+							<div class="col-md-6">
+
+								<div class="title-box">
+
+									<h4>Dr. Mark Jacobson</h4>
+
+									<p>Dental Specialist</p>
+
+								</div>
+
+								<div>
+
+									<p>Etiam dignissim sit amet felis ac sagittis. Sed libero arcu, pharetra et ante in, elementum scelerisque arcu. Curabitur sagittis non justo at ultricies odio ac diam finibus.</p>
+
+								</div>
+
+								<div class="m-al-c"><a href="#" class="get-apt"><i class="icofont-rounded-right"></i> Book Appointment </a></div>
+
+							</div>
+
+						</article>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="team-box wow fadeInUp" data-wow-delay="0.9s">
+
+						<article class="row">
+
+							<div class="col-md-6">
+
+								<img src="images/team/doc-4.jpg" alt="">
+
+							</div>
+
+							<div class="col-md-6">
+
+								<div class="title-box">
+
+									<h4>Dr. Alex Davidson</h4>
+
+									<p>Neurologist & Surgeon</p>
+
+								</div>
+
+								<div>
+
+									<p>Etiam dignissim sit amet felis ac sagittis. Sed libero arcu, pharetra et ante in, elementum scelerisque arcu. Curabitur sagittis non justo at ultricies odio ac diam finibus.</p>
+
+								</div>
+
+								<div class="m-al-c"><a href="#" class="get-apt"><i class="icofont-rounded-right"></i> Book Appointment </a></div>
+
+							</div>
+
+						</article>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+    <!-- End Our Team -->
+
+	<!--Start Premises-->
+
+    <section class="section inverse-bg" id="premises">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="section-title text-center mb-4">
+
+                        <h2>Facilities and Premises</h2>
+
+                        <p class="section-subtitle mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="owl-carousel owl-theme premises-slider">
+
+                        <div class="item">
+
+                            <div class="premises-box">
+
+                                <img src="images/premises/01.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="premises-box">
+
+                                <img src="images/premises/02.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="premises-box">
+
+                                <img src="images/premises/03.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="premises-box">
+
+                                <img src="images/premises/04.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="premises-box">
+
+                                <img src="images/premises/05.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="premises-box">
+
+                                <img src="images/premises/06.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+						<div class="item">
+
+                            <div class="premises-box">
+
+                                <img src="images/premises/07.jpg" alt="">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--End Premises-->
+
+    <!-- Start Appointment -->
+
+	<section id="appointment" class="p-0">
+
+        <div class="appointment">
+
+			<div class="row no-gutters">
+
+				<div class="col-md-5"> 
+
+					<div class="contant-number">
+
+						<h3><i class="icofont-phone"></i> +1-1234-56789-10</h3>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-7"> 
+
+					<div class="appointment-form">
+
+						<h2 class="title">Make an Appointment</h2>
+
+						<form>
+
+							<div class="row"> 
+
+								<div class="col-md-6"> 
+
+									<div class="form-group">
+
+										<input type="text" class="form-control" id="id_name" placeholder="Full Name">
+
+									</div>
+
+								</div>
+
+								<div class="col-md-6"> 
+
+									<div class="form-group">
+
+										<input type="email" class="form-control" id="id_email" placeholder="Email">
+
+									</div>
+
+								</div>
+
+								<div class="col-md-6"> 
+
+									<div class="form-group">
+
+										<input type="text" class="form-control" id="id_phone_number" placeholder="Phone Number">
+
+									</div>
+
+								</div>
+
+								<div class="col-md-6"> 
+
+									<div class="form-group">
+
+										<input class="form-control" id="datepicker" placeholder="Booking Date">
+
+									</div>
+
+								</div>
+
+								<div class="col-md-6"> 
+
+									<div class="form-group">
+
+										<select class="form-control">
+
+											<option>Department</option>
+
+											<option>Cardiology</option>
+
+											<option>Neurology</option>
+
+											<option>Orthopedics</option>
+
+											<option>Surgery</option>
+
+											<option>Urology</option>
+
+											<option>Dental</option>
+
+										</select>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-6"> 
+
+									<div class="form-group">
+
+										<select class="form-control">
+
+											<option>Doctor</option>
+
+											<option>Dr. Anym Jackson</option>
+
+											<option>Dr. Mark Jacobson</option>
+
+											<option>Dr. Alex Davidson</option>
+
+											<option>Dr. Jaka Alex</option>
+
+										</select>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="form-group">
+
+								<textarea class="form-control" rows="4" placeholder="Message"></textarea>
+
+							</div>
+
+							<button type="submit" class="btn book-now-btn">Book Now</button>
+
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+        </div>
+
+	</section>	
+
+    <!-- End Appointment -->
+
+    <!-- Start FAQ's -->
+
+    <section id="faq" class="section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="section-title text-center mb-4">
+
+                        <h2>Frequently Asked</h2>
+
+                        <p class="section-subtitle mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row align-items-center">
+
+                <div class="col-md-7">
+
+                    <div id="accordion" class="faq-panel wow fadeInUp" data-wow-duration="1500ms">
+
+                        <div class="question-box shadow-sm active">
+
+                            <div class="faq-header p-0" id="headingOne">
+
+                                <h4 class="mb-0">
+
+                                    <button class="btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><span>1. Lorem Ipsum Dolor Sit?</span><span><i class="icofont-rounded-down caret-icon"></i></span></button>
+
+                                </h4>
+
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+
+                                <div class="faq-body">
+
+                                    <p>
+
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+                                        consequat.
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="question-box shadow-sm">
+
+                            <div class="faq-header p-0" id="headingTwo">
+
+                                <h4 class="mb-0">
+
+                                    <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span>2. Amet Consectetur Adipisicing?</span><span><i class="icofont-rounded-down caret-icon"></i></span></button>
+
+                                </h4>
+
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+
+                                <div class="faq-body">
+
+                                    <p>
+
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+                                        consequat.
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="question-box shadow-sm">
+
+                            <div class="faq-header p-0" id="headingThree">
+
+                                <h4 class="mb-0">
+
+                                    <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span>3. Elit Sed Do Eiusmo?</span><span><i class="icofont-rounded-down caret-icon"></i></span></button>
+
+                                </h4>
+
+                            </div>
+
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+
+                                <div class="faq-body">
+
+                                    <p>
+
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+                                        consequat.
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="question-box shadow-sm">
+
+                            <div class="faq-header p-0" id="headingFour">
+
+                                <h4 class="mb-0">
+
+                                    <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><span>4. Ea Commodo Consequat?</span><span><i class="icofont-rounded-down caret-icon"></i></span></button>
+
+                                </h4>
+
+                            </div>
+
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+
+                                <div class="faq-body">
+
+                                    <p>
+
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+                                        consequat.
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-5">
+
+                    <div class="wow fadeIn" data-wow-duration="1500ms">
+
+                        <img src="images/faqs.png" class="w-100" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- End FAQ's -->
+
+    <!-- Start Footer -->
+
+    <footer class="footer bg-gradient overflow-hidden pb-4" id="footer">
+
+        <div class="container footer-top mb-4">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="section-title text-center mb-4">
+
+                        <h2 class="text-white">Join Our Newsletter</h2>
+
+                        <p class="text-white section-subtitle mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-5">
+
+					<div class="footer-newsletter">
+
+						<form action="#" method="post">
+
+							<input type="email" name="email"><input type="submit" value="Subscribe">
+
+						</form>
+
+					</div>
+
+				</div>
+
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <div class="foot-logo">
+
+                        <img src="images/logo.png" class="mt-2"  alt="">
+
+                    </div>
+
+                    <p class="mt-4 text-left ftr-about">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+                    <div class="mt-4">
+
+                        <ul class="footer-social list-inline mt-4">
+
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="icofont-facebook"></i></a></li>
+
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="icofont-twitter"></i></a></li>
+
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="icofont-instagram"></i></a></li>
+
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="icofont-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 col-sm-4">
+
+                    <h5 class="footer-title">Quick Links</h5>
+
+                    <ul class="footer-menu list-unstyled mb-0 mt-4">
+
+                        <li><a href="#">Home</a></li>
+
+                        <li><a href="#">Features</a></li>
+
+                        <li><a href="#">About Us</a></li>
+
+						<li><a href="#">Departments</a></li>
+
+                        <li><a href="#">Our Team</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-2 col-sm-4">
+
+                    <h5 class="footer-title">Useful Links</h5>
+
+                    <ul class="footer-menu list-unstyled mb-0 mt-4">
+
+                        <li><a href="#">Premises</a></li>
+
+                        <li><a href="#">FAQ's</a></li>
+
+                        <li><a href="#">Appointment</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+
+                    <h5 class="footer-title">Quick Contact</h5>
+
+                    <ul class="footer-menu list-unstyled mb-0 mt-4 contact-menu-list">
+
+                        <li>
+
+                            <i class="icofont-location-pin"></i>
+
+                            <a href="https://www.google.com/maps" target="_blank">
+
+                                A108 Demo Street New York, 
+
+								NY 535022, United States
+
+                            </a>
+
+                        </li>
+
+                        <li><i class="icofont-envelope"></i><a href="mailto:info@yourdomain.com"> care@mediyot.com</a></li>
+
+                        <li><i class="icofont-phone"></i><a href="tel:+12345678910"> +1 234 567 8910</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-12">
+
+                    <div class="footer-desc mt-4 pt-4">
+
+                        <p class="mb-0 text-center">2020 &copy; <span class="text-white font-weight-bold">Mediyot.</span> Design by Vrishank Softtech.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Back To Top -->
+
+    <a href="#" class="back_top"> <i class="icofont-rounded-up"></i></a>
+
+    <!-- Javascript -->
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/popper.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/parallax.js"></script>
+
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/TweenMax.min.js"></script>
+
+	<script src="js/wavify.js"></script>
+
+    <!-- Main Js   -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

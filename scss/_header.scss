@@ -1,0 +1,116 @@
+header{
+    position:fixed;
+    width:100vw;
+    background-color:transparent;
+    height:82px;
+    display:flex !important;
+    align-items: center;
+    z-index:100;
+    inset:0;
+    padding:10px 30px;
+    border-bottom: 1px solid lighten(rgba($color1,0.2), 30%);
+    &.sticky{
+        
+    }
+    
+    
+        .cont{
+            display: flex;
+            // flex-direction: row;
+            width:100%;
+
+            .log-p{
+                display:flex;
+                height:50px;
+                width:50px;
+                align-items:center;
+                justify-content:center;
+                margin-right:10px;
+                a{
+                    i{
+                        color: $color2;
+                        font-size:50px;
+                        .icon{
+                        }
+                    }
+                }
+            }
+            .navi_ation{
+            
+                
+                &.active{
+                    opacity: 1;
+                    left:0;
+                }
+                .nav-items{
+                
+                    .item{
+                        // display: flex;
+                        margin:6px 0px;
+                        a{
+                            font-size:1rem;
+                            color:$color3;
+                            padding:5px 0px;
+                            filter:contrast(20)
+                        }
+                    }
+                }
+                .apt-btn{
+                    // background:$color3;
+                    width:100%;
+                    padding:20px;
+                    display: flex;
+                    justify-content: center;
+                    a{
+                        padding:10px 20px !important;
+                        // font-size:14px;
+                        color:$color1;
+                        display: inline-block;
+                        background-color:$color3;
+                        border-radius:1.5rem !important;
+                        transition:all ease-in 0.5s;
+                        font-weight:500;
+                        // padding:10px 20px;
+                        // border-radius:5px;
+                        &:hover{
+                            background:$color2;
+                            color:$color3;
+                        }
+
+                    }
+
+                }
+            }
+            .toggle{
+                position:absolute;
+                display:flex;
+                align-items: center;
+                justify-content:center;
+                right:5%;
+                top:50%;
+                cursor: pointer;
+                transform: translate(-5%,-50%);
+                // background-color: rgba(173, 173, 173, 0.3);
+                width:40px;
+                height:40px;
+                .fa{
+                    position:absolute;
+                    font-size:25px;
+                    left:50%;
+                    top:50%;
+                    transform: translate(-50%,-50%);
+                }
+                .fa-bars{
+                    &.active{
+                        display:none;
+                    }
+                }
+                .fa-times{
+                    display:none;
+                    &.active{
+                        display:block;
+                    }
+                }
+            }
+        }
+}
